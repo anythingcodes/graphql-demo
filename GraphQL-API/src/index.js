@@ -13,7 +13,7 @@ app.use('/', (req, res)=>{
     schema: schema,
     pretty: true,
     graphiql: true,
-    rootValue: {user: user},
+    rootValue: {user: user}
   })(req,res);
 });
 
